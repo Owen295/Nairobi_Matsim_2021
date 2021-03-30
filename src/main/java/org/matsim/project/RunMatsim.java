@@ -36,7 +36,7 @@ public class RunMatsim{
 
 		Config config;
 		if ( args==null || args.length==0 || args[0]==null ){
-			config = ConfigUtils.loadConfig( "scenarios/equil/config.xml" );
+			config = ConfigUtils.loadConfig( "H:\\Masters_Transport\\CIV5109Z Dissertation Preparation\\MATSim Implementation\\matsim-12.0\\examples\\nairobi\\config.xml" );
 		} else {
 			config = ConfigUtils.loadConfig( args );
 		}
@@ -56,7 +56,7 @@ public class RunMatsim{
 		
 		// possibly modify controler here
 
-		controler.addOverridingModule( new OTFVisLiveModule() ) ;
+//		controler.addOverridingModule( new OTFVisLiveModule() ) ;
 		
 		// ---
 		

@@ -17,7 +17,7 @@
 		<!--<matsim.version>0.13.0-SNAPSHOT</matsim.version>-->
 
 		<!-- weekly release -->
-		<matsim.version>12.0-2019w48-SNAPSHOT</matsim.version>
+		<matsim.version>13.0-SNAPSHOT</matsim.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<maven.compiler.source>11</maven.compiler.source>
@@ -115,7 +115,44 @@
 			<artifactId>bicycle</artifactId>
 			<version>${matsim.version}</version>
 		</dependency>
-		<!--Dependencies from where stated above to here are added as a service; they can be removed if you don't need them-->
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi</artifactId>
+			<version>3.17</version>
+		</dependency>
+		<dependency>
+			<groupId>javax.xml.bind</groupId>
+			<artifactId>jaxb-api</artifactId>
+			<version>2.2.11</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi-ooxml-schemas</artifactId>
+			<version>3.17</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi-ooxml</artifactId>
+			<version>3.17</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi-ooxml-schemas</artifactId>
+			<version>3.17</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi-scratchpad</artifactId>
+			<version>3.9</version>
+		</dependency>
+        <dependency>
+            <groupId>org.matsim</groupId>
+            <artifactId>matsim-examples</artifactId>
+            <version>13.0-SNAPSHOT</version>
+            <scope>compile</scope>
+        </dependency>
+
+        <!--Dependencies from where stated above to here are added as a service; they can be removed if you don't need them-->
 
 	</dependencies>
 
